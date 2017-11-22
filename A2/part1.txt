@@ -1,0 +1,43 @@
+Ran Ju
+CSE 415, Autumn 2017
+Assignment 2 Part1
+2017/10/13
+
+Problem 3
+a. Fido ∈ dog (element of)
+b. parrot ⊆ bird (subset of)
+c. Polly ∈ parrot (element of)
+d. David Jones ∈ Jones (element of)
+e. "George Washington" ∈ great name (element of)
+f. Artificial intelligence ⊆ a state of mind (subset of)
+
+Problem 4
+a.{(a,a)}
+reflexive
+antisymmetry
+transitive
+partial order
+b.{(a,b),(a,c),(b,c)}
+antisymmetric
+transitive
+no reflexivity
+no partial order
+
+
+c.{(a,a),(a,b),(b,b),(b,c),(a,c),(c,c)}
+reflexive
+transitive
+antisymmetric
+partial order
+
+d.{(a,b),(b,c)}
+antisymmetry
+no partical order
+no reflexivity
+no transitivity
+
+e.{}
+antisymmetry
+reflexivity
+transitivity
+partial order
