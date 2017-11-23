@@ -1,0 +1,51 @@
+
+#Here is the result of test in each function that i create
+#introduction about myself
+Hello, my name is Ran, and I am the waitress in this restaurant.
+I was programmed by Ran Ju. If you don't like me,
+contact her at juran94@uw.edu.
+How can I help you today?
+#Enter nothing
+
+Please say something.
+#Enter keyword "love"
+love you
+Appreciate that!
+#Enter keyword "hate"
+hate you
+Sorry about that. I will imporve it!
+#Random chioce feature test
+Do you recommend
+I think you can choose whiskey to drink. And order one French Fries to eat.
+anything
+I think you can choose ice-water to drink. And order one vegan-sandwich to eat.
+i want coke
+Great! coke has been added! Anything else?
+i want burger
+Great! burger has been added! Anything else?
+i want you
+Sorry, we don't have this yet!
+haha
+hope you can enjoy your meal!
+drink?
+Well, I think lemonade is better for you!
+eat?
+Well, I think fish-and-chips is good! You can try it!
+Thank you
+You are welcome!
+i am vegan
+I think you should order vegan sandwich.
+coke
+You want to order coke? You can enter "I want ..." to order it!
+kimichi
+You want to order kimichi? You can enter "I want ..." to order it!
+yo
+How you doing to tonight?
+good
+Sounds great!
+order
+You already order burger for eat.coke for drink.It is great!
+menus
+Here is our restaurant's menus, our meal is burger,French Fries,sandwichchicken-rice,kimichi,tofu-soup,sushi,poke,little-hot-pot,double-cheese-burger,fish-and-chips,vegan-sandwich and we offer some drinks like coke,dr.pepper,sprite,beer,ice-water,coffee,lemonade,fanta,whiskey,vodka,green-tea,black-tea,bubble-milk-tea,hot-water,orange-juice.Enjoy!
+i feel bad
+Oh, I feel good, isn't it?

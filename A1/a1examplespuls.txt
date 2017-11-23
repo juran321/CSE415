@@ -1,0 +1,26 @@
+#question 1
+three_x_cubed_plus_7(2) result:31
+three_x_cubed_plus_7(1) result:10
+three_x_cubed_plus_7(3) result:88
+
+#question 2
+mystery_code("abc Iz th1s Secure? n0, no, 9!")
+result : TUV bS MA1L lXVNKX? G0, GH, 9!
+mystery_code("I miss you!")
+result : b FBLL RHN!
+mystery_code("I hate you!")
+result : b ATMX RHN!
+
+#question 3
+pair_off([2, 5, 1.5, 100, 3, 8, 7, 1, 1, 0, -2])
+result: [[2, 5], [1.5, 100], [3, 8], [7, 1], [1, 0], [-2]]
+pair_off([1, 23, 3, 8, 7, 1, 1, 0, -2])
+result : [[1, 23], [3, 8], [7, 1], [1, 0], [-2]]
+pair_off([1, 23, 3, 8, 11, -2])
+result : [[1, 23], [3, 8], [11, -2]]
+
+#question 4
+past_tense(['program', 'debug', 'execute', 'crash', 'repeat', 'eat'])
+result : ['programmed', 'debugged', 'executed', 'crashed', 'repeated', 'ate']
+past_tense(['be', 'want', 'help', 'smile', 'hate', 'wait'])
+result : ['was', 'wanted', 'helped', 'smiled', 'hated', 'waited']

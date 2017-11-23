@@ -1,0 +1,127 @@
+0A: Bruno:  Hi, my name is Bruno, I am a DJ from music Radio: Melody FM.
+    If there is anything I cannot deal for you, please contact
+    Wenjin at gwj218@uw.edu. What kind of music do you like?  We have
+    folk, jazz, pop, blues, rock, country music, classical, hip hop,
+    soul music, heavy metal, punk, funk, electronic, opera, reggae, singing.
+
+0B: Ran: Hello, my name is Ran, and I am the waitress in this restaurant.
+I was programmed by Ran Ju. If you don't like me,
+contact her at juran94@uw.edu.
+How can I help you today?
+
+1A: Bruno: What do you think?
+#if respond has what and "?"
+1B: Ran: Good question! but I cannot answer you right now. Sorry!
+
+2A: Bruno: it is 2 0 1 7 - 1 0 - 0 6   2 1 : 0 6 : 0 9 now.
+
+2B: Ran: hope you can enjoy your meal!
+
+3A: Bruno: That's funny lol.
+
+3B: Ran: How you doing to tonight?
+
+4A: Bruno: Who knows how, I am just a DJ.
+
+4B: Ran: Sounds great!
+
+5A: Bruno: You could put your hands up and dance.
+
+5B: Ran: Give me some suggestions, thanks you!
+
+6A: Bruno: I am happy to chat with you.
+
+6B: Ran: Delicious food, isn't it ?
+
+7A: Bruno: beautiful music, isn't it ?
+
+7B: Ran: What can I do for you?
+
+8A: Bruno: I am listening
+
+8B: Ran: hope you can enjoy your meal!
+
+9A: Bruno: What do you think?
+#if reponsond has "what" and "?"
+9B: Ran: Good question! but I cannot answer you right now. Sorry!
+
+10A: Bruno: it is 2 0 1 7 - 1 0 - 0 6   2 1 : 0 6 : 0 9 now.
+
+10B: Ran: How you doing to tonight?
+
+11A: Bruno: Who knows how, I am just a DJ.
+
+11B: Ran: Sounds great!
+
+12A: Bruno: That's funny lol.
+
+12B: Ran: Give me some suggestions, thanks you!
+
+13A: Bruno: You could put your hands up and dance.
+
+13B: Ran: Delicious food, isn't it ?
+
+14A: Bruno: I am happy to chat with you.
+
+14B: Ran: What can I do for you?
+
+15A: Bruno: beautiful music, isn't it ?
+
+15B: Ran: hope you can enjoy your meal!
+
+#####Test each function######
+#introduction about myself
+Hello, my name is Ran, and I am the waitress in this restaurant.
+I was programmed by Ran Ju. If you don't like me,
+contact her at juran94@uw.edu.
+How can I help you today?
+#Enter nothing
+
+Please say something.
+#Enter keyword "love"
+love you
+Appreciate that!
+#Enter keyword "hate"
+hate you
+Sorry about that. I will imporve it!
+#Random chioce feature test
+Do you recommend
+I think you can choose whiskey to drink. And order one French Fries to eat.
+anything
+I think you can choose ice-water to drink. And order one vegan-sandwich to eat.
+#cycle feature
+i want coke
+Great! coke has been added! Anything else?
+i want burger
+Great! burger has been added! Anything else?
+i want you
+Sorry, we don't have this yet!
+haha
+hope you can enjoy your meal!
+drink?
+Well, I think lemonade is better for you!
+eat?
+Well, I think fish-and-chips is good! You can try it!
+Thank you
+You are welcome!
+#when people are  vegan
+i am vegan
+I think you should order vegan sandwich.
+#when people enter the meal or drink in the menus
+coke
+You want to order coke? You can enter "I want ..." to order it!
+kimichi
+You want to order kimichi? You can enter "I want ..." to order it!
+yo
+How you doing to tonight?
+good
+Sounds great!
+#Memory feature, it can tell people that which drink and meal are already ordered.
+order
+You already order burger for eat.coke for drink.It is great!
+#tell people the context of order
+menus
+Here is our restaurant's menus, our meal is burger,French Fries,sandwichchicken-rice,kimichi,tofu-soup,sushi,poke,little-hot-pot,double-cheese-burger,fish-and-chips,vegan-sandwich and we offer some drinks like coke,dr.pepper,sprite,beer,ice-water,coffee,lemonade,fanta,whiskey,vodka,green-tea,black-tea,bubble-milk-tea,hot-water,orange-juice.Enjoy!
+#when people enter "I feel"
+i feel bad
+Oh, I feel good, isn't it?
