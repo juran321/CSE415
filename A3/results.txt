@@ -1,0 +1,8 @@
+Ran Ju CSE 415 Autumn 2017 University of Washington
+Assignment 3, Part2 Result
+
+Puzzle     examined  h_euclidian  h_hamming h_manhattan h_custom (moves/examined)
+puzzle10a   yes       10/21        10/41      10/15        10/15
+puzzle12a   yes       12/55        12/69      12/52        12/56
+puzzle14a   yes       14/54        14/126     14/70        14/56
+puzzle16a   yes       16/270       16/456     16/246       16/209

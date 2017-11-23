@@ -1,0 +1,5 @@
+Ran Ju, CSE 415, Autumn 2017, University of Washington
+Assignment 3, Part 1
+
+1. Answer = number of way to choose 7 of 9 space * number of way to fill out 4X and 3O of those 7 space = (9*8)/2 * (7*6*5)/6 = 1260
+2. Answer = number of way to choose 6 of 64 spacce * number of ways to fill out 2X, 2Y and 2Z = (64*63*62*61*60*59/6*5*4*3*2*1) * (6*5*4*3*2*1/2*2*2) = 6747693120

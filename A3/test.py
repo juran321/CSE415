@@ -1,0 +1,20 @@
+from priorityq import PriorityQ
+import EightPuzzle
+import EightPuzzleWithHeuristics
+OPEN = PriorityQ()
+s1=EightPuzzle.State([0, 1, 2, 3, 4, 5, 6, 7, 8])
+s2=EightPuzzle.State([1, 0, 2, 3, 4, 5, 6, 7, 8])
+s3=EightPuzzle.State([1, 0, 3, 2, 4, 5, 6, 7, 8])
+h1 = EightPuzzleWithHeuristics.h_euclidean(s1)
+h2 = EightPuzzleWithHeuristics.h_euclidean(s2)
+h3 = EightPuzzleWithHeuristics.h_euclidean(s3)
+OPEN.insert(s1,h1)
+OPEN.insert(s2,h2)
+OPEN.insert(s3,h3)
+print(OPEN)
+s = OPEN.deletemin()
+print(s)
+s = OPEN.deletemin()
+print(s)
+OPEN.deletemin()
+print(OPEN)
